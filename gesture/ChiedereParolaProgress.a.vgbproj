@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GestureBuilderFile xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<ProjectFile>
+		<Header>
+			<Date>2018-05-26</Date>
+			<Time>10:03:13.8076508+02:00</Time>
+			<Version>5</Version>
+			<Type>RFRProgress</Type>
+			<Function>
+				<Type>Analysis</Type>
+				<ProjectAttribute Name="ChiedereParolaProgress" Type="FLOAT" />
+			</Function>
+			<ID>f971dca1-c883-4f3f-8dec-c1a881bd7668</ID>
+		</Header>
+		<Project_Data>
+			<Files>
+				<Name />
+				<Content>
+					<Items>
+						<File>../Kinect Studio/Repository/20180519_150505_00.vgbclip</File>
+					</Items>
+				</Content>
+			</Files>
+		</Project_Data>
+		<UI_State />
+		<Attributes>
+			<Items xsi:type="BoolAttribute" Name="Mirror Left Right" Value="false" />
+		</Attributes>
+	</ProjectFile>
+</GestureBuilderFile>

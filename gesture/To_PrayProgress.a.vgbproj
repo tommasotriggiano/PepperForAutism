@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GestureBuilderFile xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<ProjectFile>
+		<Header>
+			<Date>2018-04-23</Date>
+			<Time>18:34:44.6147156+02:00</Time>
+			<Version>5</Version>
+			<Type>RFRProgress</Type>
+			<Function>
+				<Type>Analysis</Type>
+				<ProjectAttribute Name="To_PrayProgress" Type="FLOAT" />
+			</Function>
+			<ID>46d1bad9-4671-41b5-b69f-593f5e3b9ae9</ID>
+		</Header>
+		<Project_Data>
+			<Files>
+				<Name />
+				<Content />
+			</Files>
+		</Project_Data>
+		<UI_State />
+		<Attributes>
+			<Items xsi:type="BoolAttribute" Name="Mirror Left Right" Value="false" />
+		</Attributes>
+	</ProjectFile>
+</GestureBuilderFile>

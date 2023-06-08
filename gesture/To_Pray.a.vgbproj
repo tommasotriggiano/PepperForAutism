@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GestureBuilderFile xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<ProjectFile>
+		<Header>
+			<Date>2018-04-23</Date>
+			<Time>18:34:40.2793185+02:00</Time>
+			<Version>5</Version>
+			<Type>AdaBoostTrigger</Type>
+			<Function>
+				<Type>Analysis</Type>
+				<ProjectAttribute Name="To_Pray" Type="BOOL" />
+				<ProjectAccompanyAttributes>
+					<Items Name="Confidence" Type="FLOAT" />
+					<Items Name="FirstFrameDetected" Type="BOOL" />
+				</ProjectAccompanyAttributes>
+				<DefaultTag xsi:type="BoolAttribute" Name="To_Pray" Value="false" />
+			</Function>
+			<ID>7e5da173-c857-4e94-ac94-929a9fe26791</ID>
+		</Header>
+		<Project_Data>
+			<Files>
+				<Name />
+				<Content />
+			</Files>
+		</Project_Data>
+		<UI_State />
+		<Attributes>
+			<Items xsi:type="BoolAttribute" Name="Mirror Left Right" Value="false" />
+		</Attributes>
+	</ProjectFile>
+</GestureBuilderFile>

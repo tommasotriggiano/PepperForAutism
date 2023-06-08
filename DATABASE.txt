@@ -1,0 +1,25 @@
+CREATE DATABASE sql2238489;
+
+USE sql2238489;
+
+CREATE TABLE Gesture (id_gesture INT NOT NULL AUTO_INCREMENT , nome VARCHAR(50) NOT NULL , sinonimo VARCHAR(255) NULL , significato VARCHAR(100) NOT NULL , clas_grammaticale VARCHAR(20) NOT NULL , clas_pragmatica VARCHAR(100) NULL , clas_semantica VARCHAR(100) NOT NULL , sign_retorico VARCHAR(200) NULL , PRIMARY KEY (id_gesture, nome));
+CREATE TABLE form_Verbale ( id_form_verbale INT NOT NULL AUTO_INCREMENT , descrizione VARCHAR(255) NOT NULL , gesture INT NOT NULL , PRIMARY KEY (id_form_verbale));
+
+CREATE TABLE contesto ( id_contesto INT NOT NULL AUTO_INCREMENT , descrizione VARCHAR(255) NOT NULL , gesture INT NOT NULL , PRIMARY KEY (id_contesto));
+
+ALTER TABLE contesto ADD FOREIGN KEY(gesture) REFERENCES Gesture(id_gesture) ON DELETE CASCADE;
+
+ALTER TABLE form_Verbale ADD FOREIGN KEY(gesture) REFERENCES Gesture(id_gesture) ON DELETE CASCADE;
+
+
+INSERT INTO Gesture(nome, sinonimo,significato,clas_grammaticale,clas_pragmatica, clas_semantica, sign_retorico) VALUES ('To_PrayProgress','Pregare','Mettersi a mani giunte','a','b','c','Quando si entra in chiesa,si va per pregare mettendo le mani giunte');
+
+INSERT INTO Gesture(nome, sinonimo,significato,clas_grammaticale,clas_pragmatica, clas_semantica, sign_retorico) VALUES ('ChiedereParolaProgress','Chiedere la parola','Chiedere il permesso di parlare','a','b','c','Quando si vuole parlare in classe,si alza la mano per chiedere il permesso');
+
+INSERT INTO Gesture(nome, sinonimo,significato,clas_grammaticale,clas_pragmatica, clas_semantica, sign_retorico) VALUES ('PerplessoProgress','Perplesso','Non capire cosa è stato detto','a','b','c','Quando non si capisce cosa è stato detto');
+
+INSERT INTO Gesture(nome, sinonimo,significato,clas_grammaticale,clas_pragmatica, clas_semantica, sign_retorico) VALUES ('FearProgress','Paura','Aver paura','a','b','c','Quando si è spaventati');
+
+INSERT INTO Gesture(nome, sinonimo,significato,clas_grammaticale,clas_pragmatica, clas_semantica, sign_retorico) VALUES ('TestardoProgress','Testardo','Essere Testardi','a','b','c','Quando qualcuno è convinto di quello che dice');
+
+INSERT INTO Gesture(nome, sinonimo,significato,clas_grammaticale,clas_pragmatica, clas_semantica, sign_retorico) VALUES ('UncertainProgress','Incerto','EssereIncerti','a','b','c','Quando qualcuno non sa cosa fare');
